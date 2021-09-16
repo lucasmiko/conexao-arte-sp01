@@ -1,5 +1,5 @@
 //Padrão camelCase
-//Manipilação do DOM -> Document Object Model
+//Manipulação do DOM -> Document Object Model
 
 const menuHotDog = document.querySelector("#menu-hotdog")
 const body = document.querySelector("body")

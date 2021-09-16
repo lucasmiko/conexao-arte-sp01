@@ -171,6 +171,73 @@ body {
     color: #ccc;
   }
 
+  /*COMEÇANDO O FOOTER*/
+  .footer-site {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    background-color: #282828;
+  }
+
+  .footer-site .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-site .footer-links > nav,
+  .footer-site .footer-links .address,
+  .footer-site .footer-links .social-media,
+  .footer-site .footer-links .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-site .footer-links > nav li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .footer-site .footer-links > nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat-light";
+    font-size: 1em;
+  }
+
+  .footer-site .footer-links .address p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.5em;
+    font-family: "Montserrat-light";
+  }
+
+  .footer-site .footer-links .social-media {
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 70px;
+  }
+
+  .footer-site .copyright {
+    display: flex;
+    justify-content: center;
+    /*background-color: rgba(40,40,40,0.9);*/
+  }
+
+  .footer-site .copyright p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat-regular";
+    font-size: 0.7em;
+    line-height: 1.5em;
+    padding: 0 55px;
+  }
+
 }
 
 @media only screen and (min-width: 411px){
@@ -180,6 +247,10 @@ body {
 
   .title-destak h2 {
     font-size: 1.6em;
+  }
+
+  .footer-site .copyright p {
+    padding: 0 70px;
   }
 }
 
@@ -224,6 +295,25 @@ body {
 
   .full-banner form label {
     padding: 0 5%;
+  }
+
+  .footer-site .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-site .footer-links .social-media {
+    width: unset;
+    padding: 0px;
+  }
+
+  .footer-site .footer-links .social-media a + a {
+    margin-left: 20px;
+  }
+
+  .footer-site .footer-links > nav li {
+    text-align: unset;
   }
 }
 
