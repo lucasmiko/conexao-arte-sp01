@@ -22,7 +22,7 @@ const database = [{
     urlImage: "",
     imageName: "masp.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.561453322255538, -46.65559222354717"
 }, {
     name: "Parque do Ibirapuera",
     site: "",
@@ -33,7 +33,7 @@ const database = [{
     urlImage: "",
     imageName: "ibirapuera.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.58735656192446, -46.657653546707465"
 }, {
     name: "Avenida Paulista",
     site: "",
@@ -44,7 +44,7 @@ const database = [{
     urlImage: "",
     imageName: "avenida-paulista.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.5620728875411, -46.65588190209725"
 }, {
     name: "Mercado Municipal",
     site: "",
@@ -55,7 +55,7 @@ const database = [{
     urlImage: "",
     imageName: "mercado-municipal.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.541543580267145, -46.62871008548092"
 }, {
     name: "Aquário de São Paulo",
     site: "",
@@ -66,7 +66,7 @@ const database = [{
     urlImage: "",
     imageName: "aquario-de-sao-paulo.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.59332876464575, -46.613427960337354"
 }, {
     name: "Teatro Municipal ",
     site: "",
@@ -77,7 +77,7 @@ const database = [{
     urlImage: "",
     imageName: "teatro-municipal.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.54796272026829, -46.62730125371673"
 }, {
     name: "Edificio Itália ",
     site: "",
@@ -88,7 +88,7 @@ const database = [{
     urlImage: "",
     imageName: "edificio-italia.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.545336544027496, -46.642834085480835"
 }, {
     name: "Museu da Língua Portuguesa",
     site: "",
@@ -99,7 +99,7 @@ const database = [{
     urlImage: "",
     imageName: "museu-da-lingua-portuguesa.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.535046775589816, -46.633814285481016"
 }, {
     name: "Museu do Futebol",
     site: "",
@@ -110,7 +110,62 @@ const database = [{
     urlImage: "",
     imageName: "museu-do-futebol.jpg",
     description: "",
-    longitudeLatitude: ""
+    longitudeLatitude: "-23.547524782395197, -46.66435319712889"
+}, {
+    name: "Restaurante Président - Chef Érick Jacquin",
+    site: "",
+    address: "",
+    city: "São Paulo",
+    state: "SP",
+    cep: "",
+    urlImage: "",
+    imageName: "president.jpg",
+    description: "",
+    longitudeLatitude: "-23.56247879560354, -46.66925848178786"
+}, {
+    name: "Rua 25 de Março",
+    site: "",
+    address: "",
+    city: "São Paulo",
+    state: "SP",
+    cep: "",
+    urlImage: "",
+    imageName: "25-de-marco.jpg",
+    description: "",
+    longitudeLatitude: "-23.543578459486387, -46.63252134022069"
+} , {
+    name: "Skye Restaurante & Bar",
+    site: "",
+    address: "",
+    city: "São Paulo",
+    state: "SP",
+    cep: "",
+    urlImage: "",
+    imageName: "skye-restaurante.jpg",
+    description: "",
+    longitudeLatitude: "-23.581843392939092, -46.66706507018299"
+}, {
+    name: "Sala São Paulo",
+    site: "",
+    address: "",
+    city: "São Paulo",
+    state: "SP",
+    cep: "",
+    urlImage: "",
+    imageName: "sala-sao-paulo.jpg",
+    description: "",
+    longitudeLatitude: "-23.534026828808535, -46.638963739458724"
+}, {
+    name: "Terraço Itália",
+    site: "",
+    address: "",
+    city: "São Paulo",
+    state: "SP",
+    cep: "",
+    urlImage: "",
+    imageName: "terraco-italia.jpg",
+    description: "",
+    longitudeLatitude: "-23.545345144039093, -46.643309748690044"
 }];
 
 function createGallery(database, galleryEl) {

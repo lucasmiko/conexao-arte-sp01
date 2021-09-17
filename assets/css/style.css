@@ -538,8 +538,6 @@ body {
 
   .carousel-gallery .card:hover {
     cursor: pointer;
-    transform: scale(1.2);
-    transform-style: preserve-3d;
   }
 
   .carousel-gallery .card .gallery-picture img {
